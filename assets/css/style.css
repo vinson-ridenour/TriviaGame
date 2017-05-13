@@ -1,0 +1,70 @@
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+html, body{
+  height:100%;
+}
+
+body{
+  /*background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi7lLupkezTAhUcHGMKHVGDCj4QjRwIBw&url=http%3A%2F%2Fwww.pinsdaddy.com%2Fopinionated_JDmE1m6c8FVnBHGxS2S6BA8uLmKOJQE*dLgxL08Mk9w%2F&psig=AFQjCNHXZ09SK2DanONBpXmRd6JqpU1BdQ&ust=1494739655452056");*/
+  text-align: center;
+
+}
+
+#wrapper{
+  margin:5% auto;
+  background-color: transparent;
+  width:960px;
+  height: 95%;
+}
+
+#wrapper2{
+  position: relative;
+  top:15%;
+}
+button{
+  display:block;
+  width:50%;
+  height:20%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;
+}
+
+img{
+  height:200px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  color:blue;
+  padding-top: 2.5%;
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#start{
+  margin-top: 10%;
+  /*border:2px pink;*/
+  /*background: #eeeeee;*/
+}
+
+button: hover {
+  border:2px yellow;
+  background: blue;
+}
